@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/MecanismosDeControl.dir/main.cpp.o CMakeFiles/MecanismosDeControl.dir/src/database.cpp.o CMakeFiles/MecanismosDeControl.dir/src/handlers.cpp.o -o MecanismosDeControl  -lmysqlcppconn -lssl -lcrypto /usr/lib/x86_64-linux-gnu/libz.so /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
