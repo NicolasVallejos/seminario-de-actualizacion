@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gestionar Grupos</title>
+    <link rel="stylesheet" type="text/css" href="../../styles.css">
+    <script>
+        async function crearGrupo() {
+            const nombre = document.getElementById('grupoNombre').value;
+
+            const response = await fetch('http://localhost:8080/grupos', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ nombre })
+            });
+            const data = await response.json();
+            alert(data.message || data.error);
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Gestionar Grupos</h1>
+
+        <h2>Crear Grupo</h2>
+        <form onsubmit="event.preventDefault(); crearGrupo();">
+            <label for="grupoNombre">Nombre del Grupo:</label>
+            <input type="text" id="grupoNombre" required>
+            <br>
+            <button type="submit">Crear Grupo</button>
+        </form>
+
+        <p><a href="../../index.html" class="volver">Volver a la Pagina Principal</a></p>
+    </div>
+</body>
+</html>
