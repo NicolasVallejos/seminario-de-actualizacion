@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mecanismos de Control</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        button {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mecanismos de Control</h1>
+        <form id="crearUsuarioForm">
+            <h2>Crear Usuario</h2>
+            <input type="text" id="nombre" placeholder="Nombre" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <button type="submit">Crear Usuario</button>
+        </form>
+
+        <form id="crearGrupoForm">
+            <h2>Crear Grupo</h2>
+            <input type="text" id="nombreGrupo" placeholder="Nombre del Grupo" required>
+            <button type="submit">Crear Grupo</button>
+        </form>
+
+        <form id="crearAccionForm">
+            <h2>Crear Acción</h2>
+            <input type="text" id="nombreAccion" placeholder="Nombre de la Acción" required>
+            <button type="submit">Crear Acción</button>
+        </form>
+
+        <form id="asignarGrupoForm">
+            <h2>Asignar Grupo a Usuario</h2>
+            <input type="text" id="usuarioIdGrupo" placeholder="ID del Usuario" required>
+            <input type="text" id="grupoIdUsuario" placeholder="ID del Grupo" required>
+            <button type="submit">Asignar Grupo</button>
+        </form>
+
+        <form id="asignarAccionForm">
+            <h2>Asignar Acción a Grupo</h2>
+            <input type="text" id="grupoIdAccion" placeholder="ID del Grupo" required>
+            <input type="text" id="accionIdGrupo" placeholder="ID de la Acción" required>
+            <button type="submit">Asignar Acción</button>
+        </form>
+
+
+    </div>
+
+</body>
+</html>
