@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/opt/lampp/htdocs/Practicas/MecanismosDeControl/build",
+  "command": "/usr/bin/g++ -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_ZLIB_SUPPORT -I/usr/include/mysql-cppconn-8/jdbc -I/opt/lampp/htdocs/Practicas/MecanismosDeControl/include -isystem /opt/lampp/htdocs/Practicas/MecanismosDeControl/cpp-httplib -g -o CMakeFiles/MecanismosDeControl.dir/main.cpp.o -c /opt/lampp/htdocs/Practicas/MecanismosDeControl/main.cpp",
+  "file": "/opt/lampp/htdocs/Practicas/MecanismosDeControl/main.cpp"
+},
+{
+  "directory": "/opt/lampp/htdocs/Practicas/MecanismosDeControl/build",
+  "command": "/usr/bin/g++ -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_ZLIB_SUPPORT -I/usr/include/mysql-cppconn-8/jdbc -I/opt/lampp/htdocs/Practicas/MecanismosDeControl/include -isystem /opt/lampp/htdocs/Practicas/MecanismosDeControl/cpp-httplib -g -o CMakeFiles/MecanismosDeControl.dir/src/database.cpp.o -c /opt/lampp/htdocs/Practicas/MecanismosDeControl/src/database.cpp",
+  "file": "/opt/lampp/htdocs/Practicas/MecanismosDeControl/src/database.cpp"
+},
+{
+  "directory": "/opt/lampp/htdocs/Practicas/MecanismosDeControl/build",
+  "command": "/usr/bin/g++ -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_ZLIB_SUPPORT -I/usr/include/mysql-cppconn-8/jdbc -I/opt/lampp/htdocs/Practicas/MecanismosDeControl/include -isystem /opt/lampp/htdocs/Practicas/MecanismosDeControl/cpp-httplib -g -o CMakeFiles/MecanismosDeControl.dir/src/handlers.cpp.o -c /opt/lampp/htdocs/Practicas/MecanismosDeControl/src/handlers.cpp",
+  "file": "/opt/lampp/htdocs/Practicas/MecanismosDeControl/src/handlers.cpp"
+}
+]

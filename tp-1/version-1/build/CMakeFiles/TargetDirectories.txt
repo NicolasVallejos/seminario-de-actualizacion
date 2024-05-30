@@ -1,0 +1,13 @@
+/opt/lampp/htdocs/Practicas/MecanismosDeControl/build/CMakeFiles/MecanismosDeControl.dir
+/opt/lampp/htdocs/Practicas/MecanismosDeControl/build/CMakeFiles/edit_cache.dir
+/opt/lampp/htdocs/Practicas/MecanismosDeControl/build/CMakeFiles/rebuild_cache.dir
+/opt/lampp/htdocs/Practicas/MecanismosDeControl/build/CMakeFiles/list_install_components.dir
+/opt/lampp/htdocs/Practicas/MecanismosDeControl/build/CMakeFiles/install.dir
+/opt/lampp/htdocs/Practicas/MecanismosDeControl/build/CMakeFiles/install/local.dir
+/opt/lampp/htdocs/Practicas/MecanismosDeControl/build/CMakeFiles/install/strip.dir
+/opt/lampp/htdocs/Practicas/MecanismosDeControl/build/cpp-httplib/CMakeFiles/edit_cache.dir
+/opt/lampp/htdocs/Practicas/MecanismosDeControl/build/cpp-httplib/CMakeFiles/rebuild_cache.dir
+/opt/lampp/htdocs/Practicas/MecanismosDeControl/build/cpp-httplib/CMakeFiles/list_install_components.dir
+/opt/lampp/htdocs/Practicas/MecanismosDeControl/build/cpp-httplib/CMakeFiles/install.dir
+/opt/lampp/htdocs/Practicas/MecanismosDeControl/build/cpp-httplib/CMakeFiles/install/local.dir
+/opt/lampp/htdocs/Practicas/MecanismosDeControl/build/cpp-httplib/CMakeFiles/install/strip.dir
