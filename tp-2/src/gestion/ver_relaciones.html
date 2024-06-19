@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ver Relaciones Usuario-Grupo</title>
+    <link rel="stylesheet" type="text/css" href="../../styles.css">
+    <script>
+        async function obtenerRelaciones() {
+            const response = await fetch('http://localhost:8080/relaciones', {
+                method: 'GET'
+            });
+            const data = await response.json();
+
+            const tabla = document.getElementById('tablaRelaciones');
+            tabla.innerHTML = '';
+            const header = tabla.insertRow();
+            header.insertCell(0).outerHTML = "<th>ID Usuario</th>";
+            header.insertCell(1).outerHTML = "<th>Nombre Usuario</th>";
+            header.insertCell(2).outerHTML = "<th>ID Grupo</th>";
+            header.insertCell(3).outerHTML = "<th>Nombre Grupo</th>";
+
+            data.forEach(relation => {
+                const row = tabla.insertRow();
+                row.insertCell(0).textContent = relation.usuario_id;
+                row.insertCell(1).textContent = relation.usuario_nombre;
+                row.insertCell(2).textContent = relation.grupo_id;
+                row.insertCell(3).textContent = relation.grupo_nombre;
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', obtenerRelaciones);
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Relaciones Usuario-Grupo</h1>
+        <table id="tablaRelaciones" border="1">
+            <!-- Las filas se añadirán dinámicamente aquí -->
+        </table>
+
+        <p><a href="../../index.html" class="volver">Volver a la Pagina Principal</a></p>
+    </div>
+</body>
+</html>
