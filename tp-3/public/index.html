@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="index.css">
+    <title>Minimalist Chat App</title>
+</head>
+
+<body>
+    <main>
+        <section id="usernameContainer" class="container">
+            <h1 class="title">Enter Your Username</h1>
+            <form id="usernameForm" class="usernameForm" aria-labelledby="usernameHeading">
+                <input type="text" placeholder="Enter your username" class="input" id="usernameInput" required />
+                <input type="submit" class="btn" value="Join Chat">
+            </form>
+        </section>
+
+        <section id="chatContainer" class="container" style="display: none;" aria-labelledby="chatHeading">
+            <h1 id="chatHeading" class="title">Messages:</h1>
+            <div id="messages" class="messages"></div>
+            <form id="msgForm" class="msgForm" aria-labelledby="messageFormHeading">
+                <input type="text" placeholder="Send message" class="input" id="inputBox" required />
+                <input type="submit" class="btn" value="Send">
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
